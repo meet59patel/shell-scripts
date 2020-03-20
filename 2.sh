@@ -2,6 +2,7 @@
 # This script takes PMM Version as input command line argument
 # and executes commands accordingly
 
+# this shebang points to Bourne shell
 if test $1 == "dev-latest"
 then
     eval docker pull perconalab/pmm-server:dev-latest
